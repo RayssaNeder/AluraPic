@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "alurapic"
+    }
+  },
+  "defaultProject": "alurapic",
+  "cli": {
+    "analytics": "cfdecf6e-2481-4ae8-bf0b-ab71fff35e54"
+  }
 }
