@@ -1,7 +1,7 @@
 export interface Photo{
   id: number;
   postDate: Date;
-  urldescription: string;
+  description: string;
   allowComments: boolean;
   likes: number;
   comments: number;
