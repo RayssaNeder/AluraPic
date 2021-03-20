@@ -10,7 +10,6 @@ import { PhotosComponent } from './photo-list/photos/photos.component';
 
 @NgModule({
   declarations: [ PhotoComponent, PhotoListComponent, PhotosComponent, FilterByDescription, LoadButtonComponent ],
-  exports: [  ],
   imports: [ HttpClientModule,  //Esse é o HttpCleint provider. É necessário para que o Angular consiga realizar a injeção de dependência do HTTPClient app.component.ts
               CommonModule]
 
