@@ -1,8 +1,8 @@
+import { SearchComonent } from './search/search.component';
 import { CardModule } from './../../shared/components/card/card.module';
 import { CommonModule } from '@angular/common';
 import { LoadButtonComponent } from './load-button/load-button.component';
 import { PhotosComponent } from './photos/photos.component';
-import { PhotosModule } from './../photos.module';
 import { PhotoListComponent } from './photo-list.component';
 import { NgModule } from "@angular/core";
 
@@ -11,7 +11,8 @@ import { NgModule } from "@angular/core";
     PhotoListComponent,
     PhotosComponent,
     LoadButtonComponent,
-    FileReader ],
+    FileReader,
+    SearchComonent],
 
   imports: [
     CommonModule,
